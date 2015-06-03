@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"  >
+    <item
+        android:id="@+id/action_3"
+        android:showAsAction="always"
+        android:actionLayout="@layout/edit_text"
+        android:icon="@drawable/new_sms"/>
+
+    <item
+        android:id="@+id/action_1"
+        
+        android:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/sun"/>
+    <item
+        android:id="@+id/action_2"
+        android:title="share"
+        android:actionProviderClass="android.support.widget.ShareActionProvider"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/icon"/>
+    
+        
+    <item
+        android:id="@+id/action_4"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/sun"
+        android:title="@string/action_settings"/>
+    
+        
+        />
+
+</menu>
